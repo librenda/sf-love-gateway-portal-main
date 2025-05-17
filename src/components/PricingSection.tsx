@@ -62,13 +62,14 @@ const PricingSection: React.FC = () => {
   const { toast } = useToast();
 
   const handleSubscribe = (plan: PricingPlan) => {
-    toast({
-      title: "Coming Soon",
-      description: `${plan.title} subscription will be available shortly!`,
-    });
-    
-    // Here you would typically redirect to Stripe checkout
-    console.log(`Subscribe to ${plan.title} with priceId: ${plan.priceId}`);
+    if (plan.title === "Premium" || plan.title === "Basic") {
+      window.location.href = "https://buy.stripe.com/4gM00jaZg7WR7GC9aV0gw00";
+    } else {
+      toast({
+        title: "Coming Soon",
+        description: `${plan.title} subscription will be available shortly!`,
+      });
+    }
   };
 
   return (
