@@ -20,7 +20,7 @@ const testimonials: Testimonial[] = [
   },
   {
     quote: "The quality of matches on RizzMCP is so much better than what I found on other apps.",
-    author: "Eshan B",
+    author: "Eshan B.",
     job: "Data Scientist at Meta"
   }
 ];
