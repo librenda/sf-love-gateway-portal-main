@@ -10,17 +10,17 @@ interface Testimonial {
 const testimonials: Testimonial[] = [
   {
     quote: "RizzMCP helped me find my perfect match who actually understands what I do for a living!",
-    author: "Michael L.",
+    author: "Ryan H.",
     job: "Software Engineer at Google"
   },
   {
     quote: "After countless failed dates, RizzMCP's algorithm finally matched me with someone amazing!",
-    author: "Sarah J.",
+    author: "Ella S.",
     job: "Product Manager at Airbnb"
   },
   {
     quote: "The quality of matches on RizzMCP is so much better than what I found on other apps.",
-    author: "David K.",
+    author: "Eshan B",
     job: "Data Scientist at Meta"
   }
 ];
